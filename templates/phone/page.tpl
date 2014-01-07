@@ -32,7 +32,7 @@
 		{% endif %}
 		{% endfor %}
 
-		{% for id in id.o.document %}
+		{% for id in id.o.hasdocument %}
 		{% if id.is_visible and id /= dep.id %}
 			<a href="{{ id.page_url }}">{% image id class="img-responsive" mediaclass="www-page" %}</a>
 		{% endif %}
