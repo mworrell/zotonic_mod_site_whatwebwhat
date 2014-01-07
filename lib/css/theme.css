@@ -1,0 +1,123 @@
+/* Font sizes, margins */
+
+body {
+  background-color: white;
+  font-size: 1.375em;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 200;
+  line-height: 1.45;
+  color: #333;
+  padding-top: 10px;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1,
+.h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2, .h2 {font-size: 2.369em;}
+
+h3, .h3 {font-size: 1.777em;}
+
+h4, .h4 {font-size: 1.333em;}
+
+small, .font_small, .small {font-size: 0.75em;}
+
+
+/* Special element styles */
+
+#ua_select {
+  margin-top: 2em;
+}
+
+.pull-right {
+  float: right;
+}
+
+ul.content-list,
+ul.simple-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+ul.content-list li {
+  margin-bottom: 1.914em;
+}
+.depiction-overlay {
+  position: relative;
+  min-height: 5em;
+}
+div.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+}
+ul.content-list h3, ul.content-list p {
+  display: inline;
+}
+li div.text-overlay {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
+div.title-summary {
+  padding-top: 20%;
+}
+div.main, .media div.title-summary {
+  padding-top: 8%;
+}
+#search-empty {
+  margin-top: 20%;
+  padding-top: 3em;
+}
+
+.main .meta {
+  font-size: 0.75em;
+}
+
+.www-page {
+  margin-bottom: 3em;
+}
+.page .title-summary .www-page {
+  margin-top: 5em;
+}
+.page .dep .www-page {
+  margin-top: 0;
+}
+
+.do_clickable {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 3em;
+  text-align: right;
+  padding: 0 4em;
+}
+
+/* Fix for bootstrap */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .form-inline .visible-lg.visible-md {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-inline .visible-lg {
+        display: inline-block !important;
+    }
+}
