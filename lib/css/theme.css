@@ -72,8 +72,6 @@ ul.content-list h3, ul.content-list p {
 li div.text-overlay {
   background: rgba(255, 255, 255, 0.9);
 }
-
-
 div.title-summary {
   padding-top: 20%;
 }
@@ -84,25 +82,24 @@ div.main, .media div.title-summary {
   margin-top: 20%;
   padding-top: 3em;
 }
-
 .main .meta {
   font-size: 0.75em;
 }
-
 .www-page {
   margin-bottom: 3em;
 }
 .page .title-summary .www-page {
   margin-top: 5em;
 }
+.page .title-summary .depiction-overlay .www-page {
+  margin-top: 0;
+}
 .page .dep .www-page {
   margin-top: 0;
 }
-
 .do_clickable {
   cursor: pointer;
 }
-
 .footer {
   margin-top: 3em;
   text-align: right;
