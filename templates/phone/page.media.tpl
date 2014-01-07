@@ -24,5 +24,7 @@
 
 {% block related %}
 	{% include "_content_list.tpl" list=id.s.depiction title=_"See also" exclude=[id] %}
+	{% include "_content_list.tpl" list=id.s.hasdocument exclude=[id] %}
+	{% include "_content_list.tpl" list=id.s.haspart exclude=[id] %}
 {% endblock %}
 
