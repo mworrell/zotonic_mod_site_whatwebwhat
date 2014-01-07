@@ -87,15 +87,14 @@ li div.text-overlay {
 div.title-summary {
   padding-top: 8%;
 }
-.home div.title-summary {
-  padding-top: 20%;
-}
 div.main, .media div.title-summary {
   padding-top: 8%;
 }
-div.title-summary div.text-overlay,
-div.title-summary > h1 {
+div.title-summary div.text-overlay {
   top: 7em;
+}
+div.title-summary > h1 {
+  margin-top: 1.914em;
 }
 #search-empty {
   margin-top: 20%;
