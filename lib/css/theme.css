@@ -93,7 +93,8 @@ div.title-summary {
 div.main, .media div.title-summary {
   padding-top: 8%;
 }
-div.title-summary div.text-overlay {
+div.title-summary div.text-overlay,
+div.title-summary > h1 {
   top: 7em;
 }
 #search-empty {
