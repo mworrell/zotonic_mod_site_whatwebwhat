@@ -85,10 +85,16 @@ li div.text-overlay {
   background: rgba(255, 255, 255, 0.9);
 }
 div.title-summary {
+  padding-top: 8%;
+}
+.home div.title-summary {
   padding-top: 20%;
 }
 div.main, .media div.title-summary {
   padding-top: 8%;
+}
+div.title-summary div.text-overlay {
+  top: 7em;
 }
 #search-empty {
   margin-top: 20%;
