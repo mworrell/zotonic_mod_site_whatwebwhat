@@ -35,7 +35,10 @@ small, .font_small, .small {font-size: 0.75em;}
 
 @media (min-width: 768px) {
   body {
-    font-size: 1.375em;
+    font-size: 1.2em;
+  }
+  .home .title-summary {
+    font-size: 1.167em;
   }
   h1,
   .h1 {
