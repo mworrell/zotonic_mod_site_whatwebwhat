@@ -5,7 +5,7 @@
 {% block main_title %}
 	{% with id.depiction as dep %}
 		{% block main_title_texts %}
-			{% if dep and dep.id.is_visible and id.body|length >= 800 %}
+			{% if dep and dep.id.is_visible and (id.body|length >= 800 or show_title_depiction) %}
 			<div class="depiction-overlay do_clickable">
 				<a href="{{ dep.id.page_url }}">{% image dep class="img-responsive" mediaclass="www-page" %}</a>
 
