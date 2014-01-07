@@ -12,7 +12,7 @@
 	<meta name="author" content="Marc Worrell" />
 
 	{% all include "_html_head.tpl" %}
-	{% lib "css/text.css" "css/theme.css" %}
+	{% lib "css/text.css" "css/theme.css" "css/theme-text-extra.css" %}
 	{% block html_head_extra %}{% endblock %}
 </head>
 
