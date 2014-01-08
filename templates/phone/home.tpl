@@ -24,4 +24,7 @@
 {% endblock %}
 
 {% block meta %}
+    {% if id.is_editable %}
+        <p><a class="btn btn-mini" href="{% url admin_edit_rsc id=id %}">{_ Edit _}</a></p>
+    {% endif %}
 {% endblock %}

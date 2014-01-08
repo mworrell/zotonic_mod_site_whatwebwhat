@@ -10,7 +10,7 @@
 	{% endfor %}
     {{ id.publication_start|date:_"l, F j, Y" }}
     {% if id.is_editable %}
-        &ndash; <a class="btn btn-mini pull-right" href="{% url admin_edit_rsc id=id %}">{_ Edit _}</a>
+        &ndash; <a class="btn btn-mini" href="{% url admin_edit_rsc id=id %}">{_ Edit _}</a>
     {% endif %}
     {% include "_meta_share.tpl" %}
 </p>
