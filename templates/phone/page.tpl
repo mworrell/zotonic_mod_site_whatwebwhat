@@ -28,7 +28,7 @@
 
 		{% for id in id.o.depiction %}
 		{% if id.is_visible and id /= dep.id %}
-			<a href="{{ id.page_url }}">{% image id class="img-responsive" mediaclass="www-page" %}</a>
+			<a href="{{ id.page_url }}">{% media id class="img-responsive" mediaclass="www-page" %}</a>
 		{% endif %}
 		{% endfor %}
 

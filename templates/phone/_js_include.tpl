@@ -7,6 +7,7 @@
 	"js/modules/jquery.loadmask.js"
 	"js/modules/z.clickable.js"
 	"js/bootstrap.js"
+	"js/site.js"
 %}
 
 {% block _js_include_extra %}{% endblock %}

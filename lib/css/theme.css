@@ -123,6 +123,21 @@ div.title-summary > h1 {
   text-align: right;
   padding: 0;
 }
+form.search input {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+}
+.header form.search button {
+  display: none;
+}
+form.search button {
+    border: 0;
+}
+form.search button:after {
+  content: " >";
+}
 
 @media (min-width: 768px) {
   .footer {
