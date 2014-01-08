@@ -5,7 +5,7 @@
 {% block main_title %}
 	{% with id.depiction as dep %}
 		{% block main_title_texts %}
-			{% if dep and dep.id.is_visible and (id.body|length >= 800 or show_title_depiction) %}
+			{% if dep and dep.id.is_visible %}
 			<div class="depiction-overlay do_clickable">
 				<a href="{{ dep.id.page_url }}">{% image dep class="img-responsive" mediaclass="www-page" %}</a>
 
@@ -41,12 +41,6 @@
 {% endblock %}
 
 {% block content %}
-	{% with id.depiction as dep %}
-		{% if dep and dep.id.is_visible and id.body|length < 800 %}
-			{% image dep class="img-responsive" mediaclass="www-page" %}
-		{% endif %}
-	{% endwith %}
-
 	<div class="body">
 		{{ m.rsc[id].body }}
 		{% include "_blocks.tpl" %}

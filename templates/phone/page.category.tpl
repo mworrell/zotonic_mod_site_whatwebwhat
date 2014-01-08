@@ -1,11 +1,5 @@
 {% extends "page.tpl" %}
 
-{% block main_title %}
-{% with 1 as show_title_depiction%}
-	{% inherit %}
-{% endwith %}
-{% endblock %}
-
 {% block content %}
 	<div class="body">
 		{{ m.rsc[id].body }}
