@@ -8,7 +8,7 @@
 	    {% if forloop.first %}{_ Keyword _}{% endif %}
 	    <a href="{{ id.page_url }}">{{ id.title }}</a>{% if not forloop.last %}, {% else %} &ndash; {% endif %}
 	{% endfor %}
-    {{ id.created|date:_"l, F j, Y" }}
+    {{ id.publication_start|date:_"l, F j, Y" }}
     {% if id.is_editable %}
         &ndash; <a class="btn btn-mini pull-right" href="{% url admin_edit_rsc id=id %}">{_ Edit _}</a>
     {% endif %}
