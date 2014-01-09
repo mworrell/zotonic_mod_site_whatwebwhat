@@ -6,6 +6,7 @@
 	"js/modules/livevalidation-1.3.js"
 	"js/modules/jquery.loadmask.js"
 	"js/modules/z.clickable.js"
+	"js/z.dialog.js"
 	"js/bootstrap.js"
 	"js/site.js"
 %}

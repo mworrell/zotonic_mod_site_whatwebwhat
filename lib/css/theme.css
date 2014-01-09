@@ -138,6 +138,19 @@ form.search button {
 form.search button:after {
   content: " >";
 }
+ul.share-page-options {
+  list-style: none;
+  margin: 0 0 1em 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+  ul.share-page-options li {
+    float:left;
+    padding: 10px;
+  }
+.modal-header h3 {
+  margin: 0;
+}
 
 @media (min-width: 768px) {
   .footer {

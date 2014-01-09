@@ -1,4 +1,5 @@
 <p class="meta">
+    {% include "_meta_share.tpl" %}
     <a href="{{ id.category_id.page_url }}">{{ id.category_id.title }}</a>
 	{% for id in id.o.author|is_visible %}
 	    {% if forloop.first %}{_ By _}{% endif %}
@@ -12,5 +13,4 @@
     {% if id.is_editable %}
         &ndash; <a class="btn btn-mini" href="{% url admin_edit_rsc id=id %}">{_ Edit _}</a>
     {% endif %}
-    {% include "_meta_share.tpl" %}
 </p>
