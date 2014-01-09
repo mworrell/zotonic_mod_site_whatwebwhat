@@ -103,6 +103,14 @@ div.title-summary > h1 {
 .main .meta {
   font-size: 0.75em;
 }
+.share-button {
+  font-size: 1.1em;
+  display: block;
+  margin: 3em 0 2em 0;
+}
+.share-button img {
+  margin-top: -6px;
+}
 .www-page {
   margin-bottom: 3em;
 }
