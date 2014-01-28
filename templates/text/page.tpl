@@ -23,7 +23,9 @@
 		</div>
 		{% endblock %}
 
-		{% block below_body %}{% endblock %}
+		{% block below_body %}
+			{% include "_location.tpl" %}
+		{% endblock %}
 
 		{% block related %}
 			{% include "_content_list.tpl" list=id.o.hasfeatured %}

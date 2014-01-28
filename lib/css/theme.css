@@ -160,6 +160,11 @@ ul.share-page-options {
   margin: 0;
 }
 
+.adr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 @media (min-width: 768px) {
   .footer {
     padding: 0 4em;

@@ -47,6 +47,10 @@
 	</div>
 {% endblock %}
 
+{% block below_body %}
+	{% include "_location.tpl" %}
+{% endblock %}
+
 {% block related %}
 	{% include "_content_list.tpl" list=id.o.haspart %}
 	{% include "_content_list.tpl" list=m.rsc.sidebar_collection.o.haspart %}
