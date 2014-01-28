@@ -28,7 +28,7 @@
 	{% if id.computed_location_lat|is_defined %}
 	<div class="map">
 		<a href="http://maps.google.com/?q={{ id.computed_location_lat }},{{ id.computed_location_lng }}" target="_blank">
-			{% geomap_static id=id size=size|default:256 zoom=12 %}
+			{% include "_map.tpl" %}
 		</a>
 	</div>
 	{% endif %}
