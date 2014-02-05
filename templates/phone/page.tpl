@@ -34,7 +34,7 @@
 
 		{% for id in id.o.hasdocument %}
 		{% if id.is_visible and id /= dep.id %}
-			<a href="{{ id.page_url }}">{% image id class="img-responsive" mediaclass="www-page" %}</a>
+			<a href="{% url media_inline id=id %}" target="_medium{{ id }}" class="document-link" title="{_ Click to download _}">{% image id class="img-responsive" mediaclass="www-page-document" %}<span>{_ Click to download _}: {{ id.title }} <span>{{ id.medium.size|filesizeformat }}</span></span></a>
 		{% endif %}
 		{% endfor %}
 	{% endwith %}

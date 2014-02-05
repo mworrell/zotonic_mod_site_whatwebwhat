@@ -114,6 +114,27 @@ div.title-summary > h1 {
 .www-page {
   margin-bottom: 3em;
 }
+.www-page-document {
+  max-width: 400px;  
+}
+a.document-link {
+  margin-bottom: 3em;
+}
+a.document-link img {
+  border: 1px solid #ccc;
+}
+a.document-link > span {
+  clear:left;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+a.document-link > span > span {
+  font-size: 0.75em;
+}
+a.document-link > span > span:before {
+  content: " / ";
+}
 .page .title-summary .www-page {
   margin-top: 5em;
 }
