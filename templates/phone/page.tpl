@@ -54,6 +54,7 @@
 {% block related %}
 	{% include "_content_list.tpl" list=id.o.haspart %}
 	{% include "_content_list.tpl" list=m.rsc.sidebar_collection.o.haspart %}
+	{% include "_content_list.tpl" list=id.o.relation %}
 {% endblock %}
 
 {% block meta %}
