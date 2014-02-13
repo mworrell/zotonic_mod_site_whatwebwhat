@@ -1,6 +1,6 @@
 {% extends "page.tpl" %}
 
-{% block title %}{{ m.config.site.title.value }}{% endblock %}
+{% block title %}{{ m.config.site.title.value }}{% if id.seo_title %} - {{ id.seo_title }}{% endif %}{% endblock %}
 
 {% block page_class %}home{% endblock %}
 
