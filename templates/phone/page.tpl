@@ -11,7 +11,6 @@
 
 				<div class="text-overlay">
 					<h1>{{ id.title }}</h1>
-
 					{% if id.summary %}
 						<p class="summary">{{ id.summary }}</p>
 					{% endif %}
@@ -25,7 +24,6 @@
 				{% endif %}
 			{% endif %}
 		{% endblock %}
-
 		{% for id in id.o.depiction %}
 		{% if id.is_visible and id /= dep.id %}
 			<a href="{{ id.page_url }}">{% media id class="img-responsive" mediaclass="www-page" %}</a>
