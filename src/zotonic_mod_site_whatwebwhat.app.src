@@ -1,0 +1,11 @@
+{application, zotonic_mod_site_whatwebwhat, [
+    {description, "Implements all templates, css, and js for the WhatWebWhat site."},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib, zotonic_core]},
+    {env, []},
+    {modules, []},
+    {maintainers, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/mworrell/zotonic_mod_site_whatwebwhat"}]}
+]}.

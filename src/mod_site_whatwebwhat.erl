@@ -4,5 +4,4 @@
 -mod_title("WhatWebWhat site module").
 -mod_description("Implements all templates, css, and js for the WhatWebWhat site.").
 -mod_prio(50).
--mod_depends([base_site]).
-
+-mod_depends([acl]).

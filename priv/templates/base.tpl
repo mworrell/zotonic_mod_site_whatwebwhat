@@ -11,13 +11,27 @@
 	<meta name="author" content="Marc Worrell" />
 
 	{% all include "_html_head.tpl" %}
-	{% lib 
-	        "css/bootstrap.css"
-	        "css/jquery.loadmask.css" 
-	        "css/z.growl.css" 
-	        "css/z.modal.css" 
-	        "css/theme.css" 
-	%}
+
+    {% lib
+         "css/bootstrap.css"
+         "css/jquery.loadmask.css" 
+         "css/z.growl.css" 
+         "css/z.modal.css" 
+         "css/theme.css" 
+          minify
+          media='screen'
+    %}
+    {% lib
+          "css/bootstrap-print.css"
+          minify
+          media='print'
+    %}
+    {% lib
+          "font-awesome-4/css/font-awesome.css"
+          async
+          minify
+    %}
+
 	{% block html_head_extra %}{% endblock %}
 </head>
 
@@ -75,8 +89,5 @@
 {% include "_js_include.tpl" %}
 {% script %}
 
-{% block ua_probe %}
-	{% include "_ua_probe.tpl"%}
-{% endblock %}
 </body>
 </html>

@@ -1,1 +1,0 @@
-{% geomap_static id=id size=128 zoom=12 %}
