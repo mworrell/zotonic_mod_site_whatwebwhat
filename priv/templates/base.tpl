@@ -45,7 +45,7 @@
 		{% else %}
 			<div class="header clearfix">
 				{% block nav_home %}
-					<a href="/">&lt; {{ m.config.site.title.value }}</a>
+					<a href="/">&lt; {{ m.site.title }}</a>
 				{% endblock %}
 
 				{% block nav_search %}
