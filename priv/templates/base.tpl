@@ -22,11 +22,6 @@
           media='screen'
     %}
     {% lib
-          "css/bootstrap-print.css"
-          minify
-          media='print'
-    %}
-    {% lib
           "font-awesome-4/css/font-awesome.css"
           async
           minify
