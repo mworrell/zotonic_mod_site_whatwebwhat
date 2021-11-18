@@ -7,7 +7,7 @@
 {% block nav_home %}{% endblock %}
 
 {% block main_title %}
-	{% include "_title.tpl" %}
+	{% include "_page_title.tpl" %}
 
 	{% if id.summary %}
 		<p class="summary"><b>{{ id.summary }}</b></p>

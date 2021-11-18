@@ -3,7 +3,7 @@
 {% block page_class %}page{% endblock %}
 
 {% block main_title %}
-	{% include "_title.tpl" %}
+	{% include "_page_title.tpl" %}
 
 	{% if id.summary %}
 		<p class="summary">{{ id.summary }}</p>

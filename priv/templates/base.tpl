@@ -64,7 +64,7 @@
 	<div class="row content" {% include "_language_attrs.tpl" language=z_language %}>
 		<div class="col-md-6 title-summary clearfix">
 			{% block main_title %}
-				{% include "_title.tpl" %}
+				{% include "_page_title.tpl" %}
 			{% endblock %}
 		</div>
 

@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block content %}
-	{% include "_title.tpl" %}
+	{% include "_page_title.tpl" %}
 
 	{% if id.summary %}
 		<p class="summary">{{ id.summary }}</p>
