@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:5
+msgid ""
+"By"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/page.media.tpl:6./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/page.tpl:35./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/page.tpl:35
+msgid ""
+"Click to download"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_dialog_share_page.tpl:19
+msgid ""
+"Close"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/page.keyword.tpl:28./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:49
+msgid ""
+"Did not find any pages matching"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:14./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/home.tpl:28
+msgid ""
+"Edit"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:9
+msgid ""
+"Keyword"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/base.tpl:51./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/base.tpl:53./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:3./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:16./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:24
+msgid ""
+"Search"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/base.tpl:49./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:22
+msgid ""
+"Search site"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/search.tpl:11
+msgid ""
+"Searching for"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/page.media.tpl:26
+msgid ""
+"See also"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta_share.tpl:3./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta_share.tpl:3./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta_share.tpl:8
+msgid ""
+"Share this page"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_navbar.tpl:6
+msgid ""
+"Toggle navigation"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:12
+msgid ""
+"l, F j, Y"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_navbar.tpl:12
+msgid ""
+"visit site"
+msgstr ""
+""

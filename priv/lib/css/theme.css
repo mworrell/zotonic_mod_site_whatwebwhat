@@ -186,6 +186,15 @@ ul.share-page-options {
   margin-bottom: 1em;
 }
 
+
+.z_invalid {
+    display: none;
+}
+.z_form_invalid .z_invalid {
+    display: block;
+}
+
+
 @media (min-width: 768px) {
   .footer {
     padding: 0 4em;
