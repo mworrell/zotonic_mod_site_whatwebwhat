@@ -194,6 +194,12 @@ ul.share-page-options {
     display: block;
 }
 
+.if-error {
+  display: none;
+}
+.has-error .if-error {
+  display: block;
+}
 
 @media (min-width: 768px) {
   .footer {
