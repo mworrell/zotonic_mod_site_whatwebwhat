@@ -42,15 +42,45 @@ msgid ""
 msgstr ""
 ""
 
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:12
+msgid ""
+"Dimensions"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:26
+msgid ""
+"Download file"
+msgstr ""
+""
+
 #: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:14./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/home.tpl:28
 msgid ""
 "Edit"
 msgstr ""
 ""
 
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:4
+msgid ""
+"Filename"
+msgstr ""
+""
+
 #: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:9
 msgid ""
 "Keyword"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:24
+msgid ""
+"Links"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:8
+msgid ""
+"Mime"
 msgstr ""
 ""
 
@@ -84,15 +114,39 @@ msgid ""
 msgstr ""
 ""
 
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:16
+msgid ""
+"Size"
+msgstr ""
+""
+
 #: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_navbar.tpl:6
 msgid ""
 "Toggle navigation"
 msgstr ""
 ""
 
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:20
+msgid ""
+"Uploaded"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:27
+msgid ""
+"View in browser"
+msgstr ""
+""
+
 #: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_meta.tpl:12
 msgid ""
 "l, F j, Y"
+msgstr ""
+""
+
+#: ./_build/default/lib/zotonic_mod_site_whatwebwhat/priv/templates/_media_info.tpl:13
+msgid ""
+"pixels"
 msgstr ""
 ""
 
