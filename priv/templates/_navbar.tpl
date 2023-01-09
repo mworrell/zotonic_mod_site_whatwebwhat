@@ -10,7 +10,7 @@
             </button>
 
             <a class="navbar-brand" href="/" title="{_ visit site _}">
-                {{ m.config.site.title.value }}
+                {{ m.site.title }}
             </a>
         </div>
         
