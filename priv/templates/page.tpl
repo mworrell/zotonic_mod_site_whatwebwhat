@@ -39,10 +39,12 @@
 {% endblock %}
 
 {% block content %}
-	<div class="body">
-		{{ m.rsc[id].body }}
-		{% include "_blocks.tpl" %}
-	</div>
+	{% block body %}
+		<div class="body">
+			{{ m.rsc[id].body }}
+			{% include "_blocks.tpl" %}
+		</div>
+	{% endblock %}
 {% endblock %}
 
 {% block below_body %}

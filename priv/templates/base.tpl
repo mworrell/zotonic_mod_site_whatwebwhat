@@ -33,7 +33,6 @@
 <body class="{% block page_class %}{% endblock %}" data-cotonic-pathname-search="{% cotonic_pathname_search %}">
 
 <div class="container">
-{% block content_area %}
 	{% block above %}
 		{% if m.rsc.main_menu.is_published and m.rsc.main_menu.menu %}
 			{% include "_navbar.tpl" %}
@@ -64,20 +63,21 @@
 		</div>
 
 		<div class="col-md-6 main">
-			{% block content %}
-			{% endblock %}
-			{% block below_body %}
-			{% endblock %}
-			{% block related %}
-			{% endblock %}
-			{% block meta %}
+			{% block content_area %}
+				{% block content %}
+				{% endblock %}
+				{% block below_body %}
+				{% endblock %}
+				{% block related %}
+				{% endblock %}
+				{% block meta %}
+				{% endblock %}
 			{% endblock %}
 		</div>
 	</div>
 
 	{% block below %}
 	{% endblock %}
-{% endblock %}
 </div>
 {% include "_footer.tpl" %}
 
