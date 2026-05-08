@@ -60,5 +60,7 @@
 {% endblock %}
 
 {% block meta %}
-	{% include "_meta.tpl" %}
+	{% if not id.is_unfindable %}
+		{% include "_meta.tpl" %}
+	{% endif %}
 {% endblock %}
