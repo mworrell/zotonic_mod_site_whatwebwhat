@@ -9,12 +9,14 @@
 			<div class="depiction-overlay do_clickable">
 				<a href="{{ dep.id.page_url }}">{% image dep class="img-responsive" mediaclass="www-page" %}</a>
 
-				<div class="text-overlay">
-					<h1>{{ id.title }}</h1>
-					{% if id.summary %}
-						<p class="summary">{{ id.summary }}</p>
-					{% endif %}
-				</div>
+				{% if id.title %}
+					<div class="text-overlay">
+						<h1>{{ id.title }}</h1>
+						{% if id.summary %}
+							<p class="summary">{{ id.summary }}</p>
+						{% endif %}
+					</div>
+				{% endif %}
 			</div>
 			{% else %}
 				{% include "_page_title.tpl" %}
